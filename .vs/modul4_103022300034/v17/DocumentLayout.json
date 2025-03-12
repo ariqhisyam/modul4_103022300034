@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\modul4_103022300034\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|d:\\modul4_103022300034\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|d:\\modul4_103022300034\\kodeproduk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|solutionrelative:kodeproduk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|d:\\modul4_103022300034\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|d:\\modul4_103022300034\\fanlaptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B1FE2A-FB05-4943-9DEE-2635A912F721}|modul4_103022300034.csproj|solutionrelative:fanlaptop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,38 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FanLaptop.cs",
+              "DocumentMoniker": "D:\\modul4_103022300034\\FanLaptop.cs",
+              "RelativeDocumentMoniker": "FanLaptop.cs",
+              "ToolTip": "D:\\modul4_103022300034\\FanLaptop.cs",
+              "RelativeToolTip": "FanLaptop.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwE0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T01:25:35.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "KodeProduk.cs",
               "DocumentMoniker": "D:\\modul4_103022300034\\KodeProduk.cs",
               "RelativeDocumentMoniker": "KodeProduk.cs",
               "ToolTip": "D:\\modul4_103022300034\\KodeProduk.cs",
               "RelativeToolTip": "KodeProduk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T00:55:37.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\modul4_103022300034\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\modul4_103022300034\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T00:49:15.048Z",
               "EditorCaption": ""

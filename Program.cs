@@ -7,8 +7,8 @@
             while (true)
             {
                 Console.WriteLine("Pilih menu:");
-                Console.WriteLine("1. KodeProduk");
-                Console.WriteLine("2. DoorMachine");
+                Console.WriteLine("1. Kode Produk");
+                Console.WriteLine("2. Fan Laptop");
                 Console.WriteLine("3. Keluar");
                 Console.Write("Masukkan pilihan Anda: ");
                 string pilihan = Console.ReadLine();
@@ -18,9 +18,9 @@
                     case "1":
                         HandleKodeProduk();
                         break;
-                    //case "2":
-                    //    HandleDoorMachine();
-                    //    break;
+                    case "2":
+                        HandleFanLaptop();
+                        break;
                     case "3":
                         return;
                     default:
@@ -39,37 +39,37 @@
             Console.WriteLine($"Kode produk untuk {kodeproduk} adalah {kode}");
         }
 
-        //static void HandleDoorMachine()
-        //{
-        //    Door myDoor = new Door();
-        //    while (true)
-        //    {
-        //        Console.WriteLine("Masukkan perintah (buka/kunci/tutup/buka kunci/keluar): ");
-        //        string command = Console.ReadLine().ToLower();
+        static void HandleFanLaptop()
+        {
+            Fan myFan = new Fan();
+            while (true)
+            {
+                Console.WriteLine("Masukkan perintah (quiet/balanced/performance/turbo): ");
+                string command = Console.ReadLine().ToLower();
 
-        //        switch (command)
-        //        {
-        //            case "buka":
-        //                myDoor.Open();
-        //                break;
-        //            case "tutup":
-        //                myDoor.Close();
-        //                break;
-        //            case "kunci":
-        //                myDoor.Lock();
-        //                break;
-        //            case "buka kunci":
-        //                myDoor.Unlock();
-        //                break;
-        //            case "keluar":
-        //                return;
-        //            default:
-        //                Console.WriteLine("Perintah tidak valid. Silakan coba lagi.");
-        //                break;
-        //        }
+                switch (command)
+                {
+                    case "quiet":
+                        myFan.Quiet();
+                        break;
+                    case "balanced":
+                        myFan.Balanced();
+                        break;
+                    case "performance":
+                        myFan.Performance();
+                        break;
+                    case "turbo":
+                        myFan.Turbo();
+                        break;
+                    case "keluar":
+                        return;
+                    default:
+                        Console.WriteLine("Perintah tidak valid. Silakan coba lagi.");
+                        break;
+                }
 
-        //        myDoor.ShowState();
-        //    }
-        //}
+                myFan.ShowState();
+            }
+        }
     }
 }
